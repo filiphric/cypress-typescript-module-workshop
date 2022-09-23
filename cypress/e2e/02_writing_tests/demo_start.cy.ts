@@ -5,7 +5,7 @@ it('has correct board name', () => {
   cy.visit('/')
 
   cy.get('[data-cy=board-item]')
-    .invoke('text')
+    .invoke('te')
     .should('eq', 'my board')
 
 
