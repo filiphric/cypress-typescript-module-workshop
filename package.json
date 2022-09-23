@@ -13,6 +13,8 @@
   "author": "Filip Hric (https://filiphric.com/)",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^10.8.0"
+    "cypress": "^10.8.0",
+    "cypress-grep": "^3.0.3",
+    "cypress-real-events": "^1.7.1"
   }
 }

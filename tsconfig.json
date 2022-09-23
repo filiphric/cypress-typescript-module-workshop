@@ -10,7 +10,8 @@
       "node"
     ],
     "baseUrl": "./",
-    "allowJs": false
+    "allowJs": false,
+    "resolveJsonModule": true
   },
   "include": [
     "**/*.ts"

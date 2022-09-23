@@ -1,0 +1,18 @@
+[
+  {
+    "order": 0,
+    "name": "red"
+  },
+  {
+    "order": 1,
+    "name": "green"
+  },
+  {
+    "order": 2,
+    "name": "blue"
+  },
+  {
+    "order": 3,
+    "name": "purple"
+  }
+]

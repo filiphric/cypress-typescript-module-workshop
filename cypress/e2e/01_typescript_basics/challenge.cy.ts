@@ -54,7 +54,7 @@ it('should have a list', () => {
 });
 
 // challenge #5: fix the type error in the assertion 
-it.only('has proper number of boards', () => {
+it('has proper number of boards', () => {
 
   cy.intercept('GET', '/api/boards').as('boards')
 
