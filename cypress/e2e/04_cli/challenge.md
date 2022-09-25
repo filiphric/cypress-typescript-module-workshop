@@ -1,0 +1,1 @@
+Fix all the remaining ts errors and setup a lint script in package.json. Find all the info on how to do it in notes.
