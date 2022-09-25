@@ -1,6 +1,7 @@
 import '../../workshop-scripts/testSetupHook.ts'
 import '../../workshop-scripts/infoCommand.ts'
 import "cypress-real-events/support";
+import '@commands/getByData'
 
 Cypress.Commands.overwrite('request', (orig, ...args) => {
 

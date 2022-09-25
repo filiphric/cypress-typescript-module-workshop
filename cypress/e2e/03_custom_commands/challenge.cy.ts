@@ -1,0 +1,20 @@
+
+// challenge #1: create an API command that will bookmark a board. Use "Pick" utility type
+it('bookmarks a board', () => {
+
+  // since we are bookmarking a board via API, we need to bookmark it first and then open the app to see it
+  cy.visit('/')
+
+});
+
+// challenge #1: create a custom command that will select element by placeholder text
+// extra credits challenge: create a "placeholders.d.ts" file with some of the placeholders within thhe app
+it('creates a new board', () => {
+
+  cy.visit('/')
+
+  cy.getByData('board-item')
+  cy.get('[placeholder="Add board title"]')
+
+});
+

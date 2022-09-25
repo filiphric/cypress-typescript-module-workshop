@@ -9,6 +9,14 @@
       "cypress",
       "node"
     ],
+    "paths": {
+      "@typings/*": [
+        "cypress/support/typings/*"
+      ],
+      "@commands/*": [
+        "cypress/support/commands/*"
+      ]
+    },
     "baseUrl": "./",
     "allowJs": false,
     "resolveJsonModule": true
